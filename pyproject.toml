@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "food-optimization-model"
+version = "0.1.0"
+description = "LP/MILP food-combination optimization with a synthetic public demonstration."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26,<3",
+    "pandas>=2.2,<4",
+    "PuLP>=2.8,<3",
+    "pyarrow>=15,<26",
+]
+
+[project.optional-dependencies]
+data = ["openpyxl>=3.1,<4"]
+plots = [
+    "matplotlib>=3.8,<4",
+    "seaborn>=0.13,<1",
+]
+
+[tool.setuptools]
+packages = ["food_optimizer"]

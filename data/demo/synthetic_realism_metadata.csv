@@ -1,0 +1,15 @@
+Livsmedelsnamn,Gruppering,realism_group,count_group,min_if_selected_g,max_if_selected_g,max_daily_g,include_by_default,exclude_reason,review_needed,notes
+Synthetic Grain Alpha,Synthetic Staple,staple_carbohydrate,staple_carbohydrate,80,350,350,True,,False,Artificial demo value
+Synthetic Grain Beta,Synthetic Staple,staple_carbohydrate,staple_carbohydrate,80,350,350,True,,False,Artificial demo value
+Synthetic Pulse Alpha,Synthetic Protein,main_protein,main_protein,80,250,250,True,,False,Artificial demo value
+Synthetic Protein Cube,Synthetic Protein,main_protein,main_protein,60,200,200,True,,False,Artificial demo value
+Synthetic Marine Tile,Synthetic Protein,main_protein,main_protein,60,180,180,True,,False,Artificial demo value
+Synthetic Root Block,Synthetic Vegetable,vegetable_legume_mushroom,vegetable_fruit,75,300,300,True,,False,Artificial demo value
+Synthetic Leaf Block,Synthetic Vegetable,vegetable_legume_mushroom,vegetable_fruit,75,300,300,True,,False,Artificial demo value
+Synthetic Mushroom Disc,Synthetic Vegetable,vegetable_legume_mushroom,vegetable_fruit,60,250,250,True,,False,Artificial demo value
+Synthetic Fruit Red,Synthetic Fruit,fruit,vegetable_fruit,75,250,250,True,,False,Artificial demo value
+Synthetic Fruit Gold,Synthetic Fruit,fruit,vegetable_fruit,75,250,250,True,,False,Artificial demo value
+Synthetic Dairy Sphere,Synthetic Dairy,main_protein,main_protein,100,250,250,True,,False,Artificial demo value
+Synthetic Oil Droplet,Synthetic Oil,fat_oil,,5,45,45,True,,False,Artificial demo value
+Synthetic Seed Sprinkle,Synthetic Seed,nuts_seeds,snack_nuts_seeds,10,40,40,True,,False,Artificial demo value
+Synthetic Spice Granules,Synthetic Seasoning,seasoning_spice,,1,6,6,True,,False,Artificial demo value

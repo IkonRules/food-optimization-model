@@ -1,0 +1,3 @@
+# Editable installation keeps the repository-local data directory discoverable.
+# The extras support the source-data preparation scripts and result plots.
+-e .[data,plots]

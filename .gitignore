@@ -1,0 +1,56 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+*.log
+*.tmp
+*.bak
+.ipynb_checkpoints/
+
+# Virtual environments and local verification dependencies
+.venv/
+venv/
+env/
+.env
+.env.*
+.verification_deps/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.spyproject/
+.spyderproject
+.DS_Store
+Thumbs.db
+
+# Generated model outputs
+outputs/
+results/
+
+# Large source documents/workbooks: download locally; see data/README.md
+data/*.pdf
+data/LivsmedelsDB.xlsx
+data/get_NNR_tables.xlsx
+data/get_matkorgen_tables.xlsx
+
+# Local full-research runtime data: intentionally not redistributed
+data/df_foods_and_toxins_database.csv
+data/dict_dfs_NNR_tables.pkl
+data/toxins_thresholds.csv
+data/salt_thresholds.csv
+data/food_realism_metadata.csv
+
+# Rebuildable preprocessing intermediates
+data/df_food_database.csv
+data/df_compounds_total_unconverted.csv
+data/df_compounds_single_unit_means.csv
+data/df_matkorgen_products.csv
+data/df_matkorgen_toxins_database.csv

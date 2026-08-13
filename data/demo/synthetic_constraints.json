@@ -1,0 +1,45 @@
+{
+  "description": "Entirely artificial constraints created for the public portfolio demonstration.",
+  "absolute_constraints": {
+    "Protein": {"min": 60, "max": 180},
+    "Synthetic Fiber": {"min": 25, "max": 120},
+    "Synthetic Calcium": {"min": 700, "max": 2500},
+    "Synthetic Iron": {"min": 8, "max": 60}
+  },
+  "macro_percent_constraints": {
+    "Fett procent": [25, 40],
+    "Kolhydrater procent": [40, 60],
+    "Protein procent": [15, 30]
+  },
+  "toxin_upper_bounds": {
+    "Synthetic contaminant marker A": 2.5,
+    "Synthetic contaminant marker B": 2.0
+  },
+  "plate_model_constraints": {
+    "Synthetic plants": {
+      "groupings": ["Synthetic Vegetable", "Synthetic Fruit"],
+      "proportion": [25, 55]
+    },
+    "Synthetic staples": {
+      "groupings": ["Synthetic Staple"],
+      "proportion": [20, 45]
+    },
+    "Synthetic proteins": {
+      "groupings": ["Synthetic Protein", "Synthetic Dairy"],
+      "proportion": [12, 35]
+    }
+  },
+  "realism": {
+    "count_bounds": {
+      "main_protein": [1, 3],
+      "staple_carbohydrate": [1, 3],
+      "vegetable_fruit": [2, 5],
+      "snack_nuts_seeds": [0, 1]
+    },
+    "group_gram_bounds": {
+      "seasoning_spice": [0, 6],
+      "fat_oil": [0, 45],
+      "nuts_seeds": [0, 40]
+    }
+  }
+}
